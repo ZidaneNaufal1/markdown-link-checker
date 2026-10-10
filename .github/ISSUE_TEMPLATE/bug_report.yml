@@ -1,0 +1,25 @@
+name: Laporan bug
+description: Laporkan perilaku yang dapat direproduksi dengan contoh sintetis.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Lingkungan dan command
+      description: Versi Python, OS, versi program, dan command yang dijalankan.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Contoh Markdown dan langkah reproduksi
+      description: Gunakan data sintetis; jangan unggah dokumen pribadi atau credential.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Hasil aktual dan hasil yang diharapkan
+      description: Sertakan renderer yang ditargetkan untuk perbedaan anchor.
+    validations:
+      required: true

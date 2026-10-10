@@ -1,0 +1,22 @@
+name: Permintaan fitur
+description: Usulkan peningkatan terarah berdasarkan kebutuhan dokumentasi.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Masalah pengguna
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Solusi dan batas ruang lingkup
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Kriteria penerimaan dan contoh
+    validations:
+      required: true

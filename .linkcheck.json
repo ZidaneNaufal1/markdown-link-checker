@@ -1,0 +1,4 @@
+{
+  "exclude": ["examples/invalid/*"],
+  "ignore_links": []
+}
